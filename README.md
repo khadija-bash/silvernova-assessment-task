@@ -12,11 +12,11 @@ When working on this task either
 
 Try to answer as thruthfully as possible.
 
-| Name                     | xxxxx        |
-|--------------------------|--------------|
-| E-Mail:                  | xxxxx@xxx.xx |
-| Approx. Time To Complete | xx hours     |
-| My github:               | xxxxxxx      |
+| Name                     | Khadija Bashir             |
+|--------------------------|----------------------------|
+| E-Mail:                  | bashirkhadija641@gmail.com |
+| Approx. Time To Complete | 4 hours                    |
+| My github:               | khadija-bash               |
 
 ## The task
 
@@ -26,12 +26,12 @@ Your task is to build a very simple [RAG](https://en.wikipedia.org/wiki/Retrieva
 
 This repository already has a basic structure to help you get started and point you in the right direction. Your tasks are to:
 
-- [ ] Familiarize yourself with the codebase and the parts that need changes 
-- [ ] Complete the **extraction script** to embed the information from the documents in markdown format
-- [ ] Complete the **embedding script** to embed the documents' information for later retreival
-- [ ] Complete the **search script** to retreive the embedded documents that most closely resemble the search query
-- [ ] Complete the **ask script** to ask questions about the documents
-- [ ] Complete the **tests** and make sure they run
+- [x] Familiarize yourself with the codebase and the parts that need changes
+- [x] Complete the **extraction script** to embed the information from the documents in markdown format
+- [x] Complete the **embedding script** to embed the documents' information for later retreival
+- [x] Complete the **search script** to retreive the embedded documents that most closely resemble the search query
+- [x] Complete the **ask script** to ask questions about the documents
+- [x] Complete the **tests** and make sure they run
 
 ## Setup
 
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 ## API
 
-We've provided an API access for you that allows you to embed text and prompt an LLM. The API is running at [https://assessment.silvrnova.ai](https://assessment.silvrnova.ai). 
+We've provided an API access for you that allows you to embed text and prompt an LLM. The API is running at [https://assessment.silvrnova.ai](https://assessment.silvrnova.ai).
 
 You can find the OpenAPI specification here: [OpenAPI Specification](https://assessment.silvernova.ai/swagger).
 
@@ -61,3 +61,6 @@ You have to authenticate at the API. Use your assigned **API Key** for that purp
 # Ask a question about the documents
 ./associate "[question]"
 ```
+## Run Test Cases
+
+Use the following command to run the test cases `python -m unittest tests/test_cases.py`
